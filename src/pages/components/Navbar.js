@@ -5,24 +5,23 @@ export default function Navbar() {
   return (
     <nav>
       <div>
-        <image
-          src="/images/pokeboll.png"
+        <Image
+          src="/images/pokeball.png"
           width="30"
           height="30"
           alt="PokeNext"
         />
-        <p>logo</p>
         <h1>PokeNext</h1>
       </div>
       <ul>
         <li>
           <Link href="/">
-            <a>Home</a>
+      
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <a>Sobre</a>
+           
           </Link>
         </li>
       </ul>
