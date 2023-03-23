@@ -44,7 +44,7 @@ export default function Pokemon({ pokemon }) {
         alt={pokemon.name}
       />
       <div>
-        <h3>Tipo: </h3>
+        <h3>ID:</h3>
         <p>#{pokemon.id}</p>
       </div>
       <div>

@@ -1,14 +1,23 @@
 .about {
-    text-align: center;
+  text-align: center;
 }
 
 .about h1 {
-    margin-bottom: 1em;
-    font-size: 2em;
+  margin-bottom: 1em;
+  font-size: 2em;
 }
 
 .about p {
-    max-width: 500px;
-    margin: 0 auto 1.5em;
-    line-height: 1.4;
+  max-width: 500px;
+  margin: 0 auto 1.5em;
+  line-height: 1.4;
 }
+
+.img_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    column-gap: 30px;
+}
+

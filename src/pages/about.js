@@ -7,10 +7,9 @@ export default function About() {
     <div className={styles.about}>
       <h1>Sobre o projeto</h1>
       <p>
-        lorem, ipsum dolor sit amet consectetur adipisicing elit. at laboriosam
-        aspernatur dolor esse numquam eligendi voluptatibus labore magnam,
-        inventore error iure reprehenderit amet quidem repellendus fuga eum
-        doloribus explicabo tenetur!
+        Projeto feito em Next.JS e React.JS, No site, é possível visualizar
+        informações sobre os Pokémons, tais como o tipo e características como
+        peso e altura. Aplicação feita em curso de Next.JS
       </p>
       <Image
         src="/images/charizard.png"
@@ -18,6 +17,22 @@ export default function About() {
         height="300"
         alt="Charizard"
       />
+      <div className={styles.img_icons}>
+        <Image
+          src="/images/react-icon.png"
+          width="60"
+          height="50"
+          alt="React"
+          id="react"
+        />
+        <Image
+          src="/images/next-icon.png"
+          width="90"
+          height="90"
+          alt="Next"
+          id="next"
+        />
+      </div>
     </div>
   );
 }

@@ -10,6 +10,7 @@
   padding: 0.3em;
   margin: 0.8em auto;
   width: 300px;
+  text-transform: capitalize;
 }
 
 .pokemon_container h3 {
@@ -106,21 +107,21 @@
 }
 
 .data_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5em;
 }
 
 .data_container div {
-    margin: 1em 0;
-    padding: 0 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  margin: 1em 0;
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .data_height {
-    border-right: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
