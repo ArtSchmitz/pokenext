@@ -11,7 +11,7 @@ export const getStaticPaths = async () => {
 
   const paths = data.results.map((pokemon, index) => {
     return {
-      params: { pokemonId: (index + 1).toString() },
+      params: { pokemonid: (index + 1).toString() },
     };
   });
 
@@ -22,7 +22,7 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async (context) => {
-  const id = context.params.pokemonId;
+  const id = context.params.pokemonid;
 
   const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
 
