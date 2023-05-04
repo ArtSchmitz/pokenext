@@ -13,6 +13,10 @@
   text-transform: capitalize;
 }
 
+.pokemon_container h1 {
+  text-transform: capitalize;
+}
+
 .pokemon_container h3 {
   margin: 0.6em auto;
   font-size: 1.2em;
